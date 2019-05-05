@@ -53,7 +53,7 @@ public class TestBase {
 				driver = new InternetExplorerDriver();
 			}
 			else{
-				System.out.println("Issue with opening a browser");
+				System.out.println("Issue while opening a browser");
 			}		
 		}
 		catch(Exception e){
